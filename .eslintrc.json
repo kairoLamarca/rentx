@@ -62,7 +62,9 @@
             { "devDependencies": ["**/*.spec.js"] }
         ],
         "prettier/prettier": "error",
-        "@typescript-eslint/strict-boolean-expressions": "off"
+        "@typescript-eslint/strict-boolean-expressions": "off",
+        "no-throw-literal": "off",
+        "@typescript-eslint/no-throw-literal": "off"
     },
     "settings": {
         "import/resolver": {
