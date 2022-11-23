@@ -1,5 +1,5 @@
 import { ICreateUserDTO } from "../dtos/ICreateUserDTO";
-import { User } from "../entities/User";
+import { User } from "../infra/typeorm/entities/User";
 
 /* eslint-disable @typescript-eslint/method-signature-style */
 interface IUsersRepository {

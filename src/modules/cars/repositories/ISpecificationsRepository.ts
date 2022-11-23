@@ -1,4 +1,4 @@
-import { Specification } from "../entities/Specification";
+import { Specification } from "../infra/typeorm/entities/Specification";
 
 /* eslint-disable @typescript-eslint/method-signature-style */
 interface ICreateSpecificationDTO {
