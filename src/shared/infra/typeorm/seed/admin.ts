@@ -2,7 +2,6 @@
 /* eslint-disable @typescript-eslint/no-floating-promises */
 /* eslint-disable @typescript-eslint/explicit-function-return-type */
 import { hash } from "bcrypt";
-import { getConnection } from "typeorm";
 import { v4 as uuidV4 } from "uuid";
 
 import createConnection from "../index";
